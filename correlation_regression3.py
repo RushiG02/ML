@@ -1,7 +1,6 @@
 import math
-Score1 = list(map(int,input().split())) 
-Score2 = list(map(int,input().split()))
-
+Score1 = [15 , 12 , 8  , 8 ,  7 ,  7 ,  7 ,  6   , 5  , 3] 
+Score2 = [10  ,25 , 17  ,11 , 13 , 17 , 20 , 13 , 9  , 15]
 m1 = (sum(Score1)/len(Score1))
 m2 = (sum(Score2)/len(Score1))
 
